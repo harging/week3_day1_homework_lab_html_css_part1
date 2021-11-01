@@ -1,0 +1,84 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 20px;
+}
+
+/* header > nav {
+    DISPLAY:BLOCK;
+    align:right;
+}
+
+header > nav > ul > li {
+    display:block;
+    float:left;
+} */
+
+#logo {
+    display:block;
+    position:relative;
+    left:0px;
+    width:40%;
+}
+
+header > h1  {
+    display:block;
+    width:40%;
+    position:left;
+}
+
+header > nav {
+    display:block;
+    position:absolute;
+    right:0px;
+    top:30px;
+    width:300px%;
+}
+
+header > nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position:right;
+  }
+  
+  header > nav > ul > li {
+       float: left;
+  } 
+  
+  header > nav > ul > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+  } 
+
+footer {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+aside {
+    padding :20px;
+}
+
+article {
+    padding:20px;
+}
+
+section {
+    padding:20px;
+}
+
+aside > section {
+    padding:0px;
+}

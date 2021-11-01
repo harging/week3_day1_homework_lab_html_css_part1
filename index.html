@@ -3,11 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
     <title>CodeClan News</title>
 </head>
 <body>
     <header>
-        <h1>CodeClan News</h1>
+        <div id="logo"><h1>CodeClan News</h1></div>
         <nav>
             <ul>
                 <li><a href="">Home</a></li>
@@ -16,22 +17,84 @@
             </ul>
         </nav>
     </header>
-    <aside>
-        <h3>Login</h3>
-        <form>
-            <label for="email">Email:</label>
-            <input type="text" id="email">
-            <label for="password">Email:</label>
-            <input type="text" id="password">
-        </form>
+        <main>
+        <aside>
+            <h3>Login</h3>
+            <form>
+                <label for="email">Email:</label><br />
+                <input type="text" id="email"><br />
+                <label for="password">Password:</label><br />
+                <input type="text" id="password"><br />
+                <input type="submit">
+            </form>
+            <section>
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="">Latest</a></li>
+                    <li><a href="">Local</a></li>
+                    <li><a href="">Politics</a></li>
+                    <li><a href="">Sports</a></li>
+                </ul>
+            </section>
+        </aside>
+        <aside >    
+            <h3>Latest</h3>
+            <h4>Breaking News</h4>
+            <section>
+                <img src="https://via.placeholder.com/150" alt="placeholder">
+                <h5>Story Headline</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, consequuntur ex culpa fuga vitae debitis adipisci commodi totam magni esse sint a dolor asperiores molestias. Repudiandae quas eveniet animi ex!</p>
+            </section>
+            <section>
+                <img src="https://via.placeholder.com/150" alt="placeholder">
+                <h5>Story Headline</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, consequuntur ex culpa fuga vitae debitis adipisci commodi totam magni esse sint a dolor asperiores molestias. Repudiandae quas eveniet animi ex!</p>
+            </section>
+            <section>
+                <img src="https://via.placeholder.com/150" alt="placeholder">
+                <h5>Story Headline</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, consequuntur ex culpa fuga vitae debitis adipisci commodi totam magni esse sint a dolor asperiores molestias. Repudiandae quas eveniet animi ex!</p>
+            </section>
+        </aside>
+        <article>
+            <h2>Main Article Headline</h2>
+            <h3>Author Name</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales diam ex, at tincidunt erat iaculis et. Nam ornare placerat dolor. Etiam a semper orci. Donec a leo fermentum, pretium neque convallis, commodo metus. Aenean ultricies diam felis. Fusce ac gravida justo. Morbi ornare non erat vel lacinia. Donec imperdiet enim nec ante maximus ultrices. Etiam accumsan rutrum erat, a congue mi scelerisque eu. Sed ut blandit velit, a tristique quam. Mauris tempor vel est eu tincidunt. Maecenas dictum vulputate nibh eget tincidunt. Ut lacinia imperdiet arcu vitae eleifend. Phasellus finibus libero urna, sit amet pretium erat finibus eget.</p>
+            <p>Aliquam libero diam, vulputate sit amet purus vitae, scelerisque porta quam. Quisque lobortis laoreet neque. Phasellus interdum tellus erat, vel molestie est dignissim ac. Sed faucibus vulputate diam quis pretium. Donec in finibus purus. Praesent pellentesque lacus in tortor viverra mollis. Nunc sit amet quam ac dui dictum ullamcorper non ac lacus. Praesent dui leo, blandit commodo magna dictum, accumsan elementum sem. Donec tempus malesuada nulla.</p>
+            <p>Maecenas porta nec tortor eu efficitur. Vivamus vel dolor ornare, gravida ex efficitur, malesuada nisi. Pellentesque ultricies, enim id pulvinar posuere, nisi augue pretium justo, ornare accumsan justo augue eu magna. Nam sollicitudin faucibus diam, id commodo lacus venenatis sodales. Nunc finibus iaculis accumsan. Praesent vitae rhoncus ligula, ac accumsan sapien. Pellentesque ut eros sodales, laoreet lectus vitae, volutpat quam. Pellentesque iaculis bibendum dui, vel suscipit nunc vestibulum non. Duis lobortis semper dolor in ullamcorper. Maecenas iaculis odio in lacus fringilla, ac luctus elit lacinia. Cras feugiat porta nisl eu euismod. Nulla facilisi.</p>
+            <p>Ut tincidunt efficitur quam, quis porttitor libero. Aliquam sit amet mollis mi. Nullam placerat tellus et gravida maximus. Sed risus augue, imperdiet nec sapien sit amet, suscipit mollis ante. Ut at pellentesque nulla, at lobortis orci. Sed quis odio suscipit est pulvinar convallis vel ac eros. Fusce et auctor ipsum, in aliquam diam. Curabitur finibus aliquam finibus. Donec elementum lacinia ante, eget eleifend nibh molestie vitae. Curabitur convallis placerat libero tincidunt dignissim.</p>
+            <p>In tincidunt porta metus sed iaculis. Sed maximus venenatis quam quis egestas. Curabitur sit amet turpis metus. Aenean sit amet molestie orci. Mauris a ultricies est. Donec at dapibus massa, eu interdum tortor. Fusce tempor, tellus imperdiet dignissim dapibus, leo mauris tempor magna, a ullamcorper dolor erat id tortor. Nullam quis ante nibh. Donec viverra dignissim venenatis.</p>
+        </article>
         <section>
-            <h3>Categories</h3>>
-            <ul>
-                <li><a href="">Latest</a></li>
-                <li><a href="">Local</a></li>
-                <li><a href="">Politics</a></li>
-                <li><a href="">Sports</a></li>
-            </ul>
+            <h3>Comments</h3>
+            <form>
+                <input type="textarea" id="comment">
+                <input type="submit">
+            </form>
         </section>
-    </aside>
+        <section>
+            <hr />
+            <img src="https://via.placeholder.com/150" alt="placeholder">
+            <h4>Username</h4>
+            <h5>Posted: 23/03/2020</h5>
+            <p>This was interesting. Thanks!</p>
+        </section>
+        <section>
+            <hr />
+            <img src="https://via.placeholder.com/150" alt="placeholder">
+            <h4>Username</h4>
+            <h5>Posted: 25/03/2020</h5>
+            <p>This was interesting. Thanks!</p>
+        </section>
+        <section>
+            <hr />
+            <img src="https://via.placeholder.com/150" alt="placeholder">
+            <h4>Username</h4>
+            <h5>Posted: 26/03/2020</h5>
+            <p>This was interesting. Thanks!</p>
+        </section>
+    </main>
+    <footer>
+        <p>© CodeClan news 2020</p>
+    </footer>
 </body>
